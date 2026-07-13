@@ -1,0 +1,26 @@
+<div>
+  <div class="masonry">
+    <figure
+      *ngFor="let image of displayedImages()"
+      class="masonry__item"
+    >
+      <button
+        type="button"
+        class="gallery-image-trigger"
+        [attr.aria-label]="'Open ' + image.alt + ' in fullscreen'"
+        (click)="onImageClick(image.id)"
+      >
+        <img [src]="image.src" [alt]="image.alt" loading="lazy" width="320" decoding="async" />
+      </button>
+      <div class="masonry__actions">
+        <app-image-actions [image]="image" [categorySlug]="categorySlug"></app-image-actions>
+      </div>
+    </figure>
+  </div>
+
+  <div *ngIf="hasMoreImages()" class="masonry-load-more">
+    <button type="button" class="load-more-btn" (click)="loadMore()">
+      See More ({{ remainingImagesCount() }} more)
+    </button>
+  </div>
+</div>
