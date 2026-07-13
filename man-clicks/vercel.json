@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm install && ng build --configuration production",
+  "outputDirectory": "dist/man-clicks/browser",
+  "devCommand": "ng serve",
+  "env": ["ANGULAR_ENV"]
+}
