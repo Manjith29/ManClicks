@@ -43,3 +43,9 @@ Thumbs.db
 
 # Env
 .env
+
+# Playwright MCP
+.playwright-mcp/
+
+# Server logs
+server.log
