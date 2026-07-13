@@ -2,7 +2,6 @@
 <section class="hero-preview">
   <img class="hero-main" [src]="category.heroImage" [alt]="category.title + ' featured photograph'" />
   <img class="hero-secondary" [src]="category.secondaryHeroImage" [alt]="category.title + ' detail photograph'" />
-  <h1 class="hero-preview__title">{{ category.title }}</h1>
 
   <div class="hero-preview__watermark">
     <app-watermark></app-watermark>
@@ -14,23 +13,49 @@
 </section>
 
 <nav class="album-tabs" *ngIf="category.albums?.length" aria-label="Photo albums">
-  <button
-    type="button"
-    class="album-tab"
-    [class.album-tab--active]="!activeAlbumSlug()"
-    (click)="selectAlbum(null)"
-  >
-    All
-  </button>
-  <button
-    type="button"
-    class="album-tab"
-    *ngFor="let album of category.albums"
-    [class.album-tab--active]="activeAlbumSlug() === album.slug"
-    (click)="selectAlbum(album.slug)"
-  >
-    {{ album.title }}
-  </button>
+  <div class="album-tabs__content">
+    <div class="album-buttons">
+      <button
+        type="button"
+        class="album-tab"
+        [class.album-tab--active]="!activeAlbumSlug()"
+        (click)="selectAlbum(null)"
+      >
+        Highlights
+      </button>
+      <button
+        type="button"
+        class="album-tab"
+        *ngFor="let album of category.albums"
+        [class.album-tab--active]="activeAlbumSlug() === album.slug"
+        (click)="selectAlbum(album.slug)"
+      >
+        {{ album.title }}
+      </button>
+    </div>
+    <div class="album-controls">
+      <!-- <button
+        type="button"
+        class="album-control-btn slideshow-btn"
+        [class.slideshow-btn--playing]="galleryComponent?.isPlaying() || false"
+        (click)="galleryComponent?.toggleSlideshow()"
+        [attr.aria-label]="((galleryComponent?.isPlaying() || false) ? 'Pause' : 'Play') + ' slideshow'"
+        title="Slideshow"
+      >
+        {{ (galleryComponent?.isPlaying() || false) ? '⏸' : '▶' }}
+      </button> -->
+      <button
+        type="button"
+        class="album-control-btn download-all-btn"
+        (click)="galleryComponent?.downloadAllAsZip()"
+        [attr.aria-label]="'Download all images as ZIP'"
+        [disabled]="(galleryComponent?.totalImages() || 0) === 0"
+        title="Download All"
+      >
+        ⬇
+      </button>
+    </div>
+  </div>
 </nav>
 
 <section id="full-gallery" appScrollReveal>

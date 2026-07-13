@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, computed, signal } from '@angular/core';
+import { Component, OnInit, ViewChild, ChangeDetectionStrategy, computed, signal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { findAdjacentImage, findImage, getAlbum, getCategory } from '../../data/gallery-data';
 import { GalleryCategory, GalleryImage } from '../../core/models/gallery.model';
@@ -20,8 +20,11 @@ import { ScrollRevealDirective } from '../../shared/scroll-reveal.directive';
   ],
   templateUrl: './gallery-page.component.html',
   styleUrl: './gallery-page.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GalleryPageComponent implements OnInit {
+  @ViewChild(MasonryGalleryComponent) galleryComponent!: MasonryGalleryComponent;
+
   category!: GalleryCategory;
   private slug!: string;
 
@@ -76,6 +79,7 @@ export class GalleryPageComponent implements OnInit {
   }
 
   selectAlbum(albumSlug: string | null): void {
+    this.galleryComponent?.stopSlideshow();
     this.router.navigate(this.galleryPath(albumSlug));
   }
 
@@ -92,6 +96,7 @@ export class GalleryPageComponent implements OnInit {
     if (!current) {
       return;
     }
+    this.galleryComponent?.stopSlideshow();
     const next = findAdjacentImage(this.slug, current, 'next', this._activeAlbumSlug() ?? undefined);
     if (next) {
       this.router.navigate(this.photoPath(next.id));
@@ -103,6 +108,7 @@ export class GalleryPageComponent implements OnInit {
     if (!current) {
       return;
     }
+    this.galleryComponent?.stopSlideshow();
     const prev = findAdjacentImage(this.slug, current, 'prev', this._activeAlbumSlug() ?? undefined);
     if (prev) {
       this.router.navigate(this.photoPath(prev.id));

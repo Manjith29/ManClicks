@@ -4,7 +4,7 @@
   min-height: 80vh;
   display: grid;
   grid-template-columns: 1fr;
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-lg) 0;
   background: var(--color-espresso);
   overflow: hidden;
 }
@@ -12,7 +12,8 @@
 .hero-main {
   width: 100%;
   height: 60vh;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero-secondary {
@@ -23,14 +24,6 @@
   right: var(--space-md);
   border: 4px solid var(--color-ivory);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-}
-
-.hero-preview__title {
-  position: absolute;
-  top: var(--space-lg);
-  left: var(--space-md);
-  color: var(--color-ivory);
-  font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
 .hero-preview__watermark {
@@ -59,10 +52,23 @@
 }
 
 .album-tabs {
+  padding: var(--space-md);
+  border-bottom: 1px solid var(--color-hairline, #e0e0e0);
+}
+
+.album-tabs__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.album-buttons {
   display: flex;
   gap: var(--space-sm);
   overflow-x: auto;
-  padding: var(--space-md) var(--space-md) 0;
+  min-width: 0;
+  padding-bottom: var(--space-xs);
 }
 
 .album-tab {
@@ -86,4 +92,57 @@
 .album-tab--active {
   color: var(--color-espresso);
   border-color: var(--color-gold);
+}
+
+.album-controls {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.album-control-btn {
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  color: inherit;
+  white-space: nowrap;
+  min-width: auto;
+  line-height: 1;
+}
+
+.album-control-btn:hover:not(:disabled) {
+  opacity: 0.7;
+}
+
+.album-control-btn:active:not(:disabled) {
+  opacity: 0.5;
+}
+
+.album-control-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.slideshow-btn--playing {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: currentColor;
+}
+
+@media (max-width: 640px) {
+  .album-tabs__content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .album-buttons {
+    order: 1;
+  }
+
+  .album-controls {
+    order: 2;
+    justify-content: center;
+  }
 }
