@@ -47,9 +47,9 @@
       <button
         type="button"
         class="album-control-btn download-all-btn"
-        (click)="galleryComponent.downloadAllAsZip()"
+        (click)="galleryComponent?.downloadAllAsZip()"
         [attr.aria-label]="'Download all images as ZIP'"
-        [disabled]="(galleryComponent.totalImages() || 0) === 0"
+        [disabled]="(galleryComponent?.totalImages() || 0) === 0"
         title="Download All"
       >
         ⬇
