@@ -1,5 +1,5 @@
 {
   "buildCommand": "cd man-clicks && npm install && npx ng build --configuration production",
-  "outputDirectory": "dist/man-clicks/browser",
-  "devCommand": "npx ng serve"
+  "outputDirectory": "man-clicks/dist/man-clicks/browser",
+  "devCommand": "cd man-clicks && npx ng serve"
 }
