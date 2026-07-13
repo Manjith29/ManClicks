@@ -102,6 +102,10 @@ export class MasonryGalleryComponent {
 
       for (const image of images) {
         const response = await fetch(image.downloadSrc);
+        if (!response.ok) {
+          console.warn(`Failed to fetch image ${image.id}: ${response.statusText}`);
+          continue;
+        }
         const blob = await response.blob();
         const fileName = image.downloadSrc.split('/').pop() || `${image.id}.jpg`;
         zip.file(fileName, blob);

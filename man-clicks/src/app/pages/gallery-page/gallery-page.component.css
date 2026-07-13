@@ -104,13 +104,11 @@
   padding: 6px 8px;
   font-size: 0.9rem;
   border: 1px solid currentColor;
-  background: transparent;
+  background: 0;
   cursor: pointer;
   transition: all var(--transition-base);
-  color: inherit;
-  white-space: nowrap;
-  min-width: auto;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .album-control-btn:hover:not(:disabled) {
