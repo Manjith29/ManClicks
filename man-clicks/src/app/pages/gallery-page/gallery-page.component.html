@@ -1,0 +1,51 @@
+<!-- man-clicks/src/app/pages/gallery-page/gallery-page.component.html -->
+<section class="hero-preview">
+  <img class="hero-main" [src]="category.heroImage" [alt]="category.title + ' featured photograph'" />
+  <img class="hero-secondary" [src]="category.secondaryHeroImage" [alt]="category.title + ' detail photograph'" />
+  <h1 class="hero-preview__title">{{ category.title }}</h1>
+
+  <div class="hero-preview__watermark">
+    <app-watermark></app-watermark>
+  </div>
+
+  <button type="button" class="hero-preview__view-gallery" (click)="scrollToGallery()">
+    VIEW GALLERY &darr;
+  </button>
+</section>
+
+<nav class="album-tabs" *ngIf="category.albums?.length" aria-label="Photo albums">
+  <button
+    type="button"
+    class="album-tab"
+    [class.album-tab--active]="!activeAlbumSlug()"
+    (click)="selectAlbum(null)"
+  >
+    All
+  </button>
+  <button
+    type="button"
+    class="album-tab"
+    *ngFor="let album of category.albums"
+    [class.album-tab--active]="activeAlbumSlug() === album.slug"
+    (click)="selectAlbum(album.slug)"
+  >
+    {{ album.title }}
+  </button>
+</nav>
+
+<section id="full-gallery" appScrollReveal>
+  <app-masonry-gallery
+    [images]="activeImages()"
+    [categorySlug]="categoryPath()"
+    (imageSelected)="onImageSelected($event)"
+  ></app-masonry-gallery>
+</section>
+
+<app-image-lightbox
+  *ngIf="activeImage() as image"
+  [image]="image"
+  [categorySlug]="categoryPath()"
+  (closeRequested)="onLightboxClose()"
+  (previousRequested)="onLightboxPrevious()"
+  (nextRequested)="onLightboxNext()"
+></app-image-lightbox>

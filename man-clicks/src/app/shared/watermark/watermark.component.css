@@ -1,0 +1,18 @@
+.watermark {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  text-decoration: none;
+  padding: var(--space-xs) var(--space-sm);
+  border: var(--border-hairline);
+  border-color: rgba(255, 255, 255, 0.4);
+  border-radius: 2px;
+  transition: color var(--transition-base), border-color var(--transition-base);
+}
+
+.watermark:hover,
+.watermark:focus-visible {
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}

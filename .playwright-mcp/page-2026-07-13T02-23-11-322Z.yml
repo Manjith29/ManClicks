@@ -1,0 +1,146 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link "Man Clicks" [ref=e5] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e6]:
+      - link "Baby Shoots" [ref=e7] [cursor=pointer]:
+        - /url: /baby-shoots
+      - link "Professional Portraits" [ref=e8] [cursor=pointer]:
+        - /url: /professional-portraits
+      - link "Engagements" [ref=e9] [cursor=pointer]:
+        - /url: /engagements
+      - link "Birthdays" [ref=e10] [cursor=pointer]:
+        - /url: /birthdays
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - img "Baby Shoots featured photograph" [ref=e14]
+        - img "Baby Shoots detail photograph" [ref=e15]
+        - heading "Baby Shoots" [level=1] [ref=e16]
+        - 'link "Open Man Clicks on Instagram: @manclicksiowa" [ref=e19] [cursor=pointer]':
+          - /url: https://www.instagram.com/manclicksiowa/
+          - text: "@manclicksiowa"
+        - button "VIEW GALLERY ↓" [ref=e20] [cursor=pointer]
+      - navigation "Photo albums" [ref=e21]:
+        - button "All" [ref=e22] [cursor=pointer]
+        - button "Tonsure Ceremony" [ref=e23] [cursor=pointer]
+      - generic [ref=e26]:
+        - figure [ref=e27]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e28] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e29]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-001.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e30]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e31] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e32]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-002.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e33]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e34] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e35]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-003.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e36]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e37] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e38]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-004.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e39]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e40] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e41]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-005.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e42]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e43] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e44]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-006.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e45]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e46] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e47]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-007.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e48]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e49] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e50]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-008.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e51]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e52] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e53]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-009.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e54]:
+          - button "Open Baby shoot photography by Man Clicks in fullscreen" [ref=e55] [cursor=pointer]:
+            - img "Baby shoot photography by Man Clicks" [ref=e56]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/baby-010.svg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]: Man Clicks
+    - generic [ref=e60]:
+      - link "@manclicksiowa" [ref=e61] [cursor=pointer]:
+        - /url: https://www.instagram.com/manclicksiowa/
+      - link "manclicksiowa@gmail.com" [ref=e62] [cursor=pointer]:
+        - /url: mailto:manclicksiowa@gmail.com
+      - generic [ref=e63]: Des Moines, Iowa
+    - generic [ref=e64]: © 2026 Man Clicks. All rights reserved.

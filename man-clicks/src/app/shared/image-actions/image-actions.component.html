@@ -1,0 +1,30 @@
+<div class="image-actions">
+  <button
+    type="button"
+    class="like"
+    [class.like--active]="isLiked()"
+    [attr.aria-pressed]="isLiked()"
+    [attr.aria-label]="(isLiked() ? 'Unlike' : 'Like') + ' this photo'"
+    (click)="onLikeClick()"
+  >
+    &hearts;
+  </button>
+
+  <a
+    class="download"
+    [href]="image.downloadSrc"
+    [download]="downloadFileName"
+    [attr.aria-label]="'Download this photo'"
+  >
+    &#8681;
+  </a>
+
+  <button
+    type="button"
+    class="share"
+    aria-label="Share this photo on WhatsApp"
+    (click)="onShareClick()"
+  >
+    &#8599;
+  </button>
+</div>

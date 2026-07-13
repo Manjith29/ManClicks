@@ -1,0 +1,27 @@
+<!-- man-clicks/src/app/shared/image-lightbox/image-lightbox.component.html -->
+<div
+  class="lightbox"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-label]="image.alt"
+  (touchstart)="onTouchStart($event)"
+  (touchend)="onTouchEnd($event)"
+>
+  <button type="button" class="back" aria-label="Close and return to gallery" (click)="closeRequested.emit()">
+    &#8592;
+  </button>
+
+  <button type="button" class="prev" aria-label="Previous photo" (click)="previousRequested.emit()">
+    &#10094;
+  </button>
+
+  <img class="lightbox-image" [src]="image.src" [alt]="image.alt" />
+
+  <button type="button" class="next" aria-label="Next photo" (click)="nextRequested.emit()">
+    &#10095;
+  </button>
+
+  <div class="lightbox__actions">
+    <app-image-actions [image]="image" [categorySlug]="categorySlug"></app-image-actions>
+  </div>
+</div>

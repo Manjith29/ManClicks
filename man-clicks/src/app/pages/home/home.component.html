@@ -1,0 +1,26 @@
+<section class="hero">
+  <div class="hero__content">
+    <h1>Man Clicks</h1>
+    <p class="hero__tagline">Capturing your moments, forever.</p>
+    <a class="hero-cta" [routerLink]="'/' + categories[0].slug">Explore the Portfolio</a>
+  </div>
+</section>
+
+<section class="categories" appScrollReveal>
+  <app-category-card
+    *ngFor="let category of categories"
+    [slug]="category.slug"
+    [title]="category.title"
+    [image]="category.heroImage"
+  ></app-category-card>
+</section>
+
+<section class="contact" appScrollReveal>
+  <h2>Let's Create Something Timeless</h2>
+  <p>Portraits, celebrations, and moments worth remembering.</p>
+  <div class="contact__links">
+    <a [href]="social.instagramUrl" target="_blank" rel="noopener noreferrer">{{ social.instagramHandle }}</a>
+    <a [href]="'mailto:' + social.email">{{ social.email }}</a>
+  </div>
+  <p class="contact__location">{{ social.location }}</p>
+</section>

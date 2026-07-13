@@ -1,0 +1,91 @@
+/* man-clicks/src/app/shared/navbar/navbar.component.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(248, 243, 231, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: var(--border-hairline);
+}
+
+.brand {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-espresso);
+  letter-spacing: 0.03em;
+}
+
+.nav-links {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+}
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: var(--color-espresso);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  padding: var(--space-xs) 0;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-gold);
+  transition: width var(--transition-base);
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: var(--space-xs);
+}
+
+.hamburger span {
+  width: 22px;
+  height: 1.5px;
+  background: var(--color-espresso);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--color-ivory);
+    border-bottom: var(--border-hairline);
+    padding: var(--space-sm) var(--space-md);
+    display: none;
+  }
+
+  .nav-links--open {
+    display: flex;
+  }
+}

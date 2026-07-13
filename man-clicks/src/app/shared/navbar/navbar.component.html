@@ -1,0 +1,27 @@
+<!-- man-clicks/src/app/shared/navbar/navbar.component.html -->
+<header class="navbar">
+  <a routerLink="/" class="brand" (click)="closeMenu()">Man Clicks</a>
+
+  <nav class="nav-links" [class.nav-links--open]="isMenuOpen()">
+    <a
+      *ngFor="let item of navItems"
+      [routerLink]="'/' + item.slug"
+      routerLinkActive="active"
+      (click)="closeMenu()"
+    >
+      {{ item.title }}
+    </a>
+  </nav>
+
+  <button
+    class="hamburger"
+    type="button"
+    aria-label="Toggle navigation menu"
+    [attr.aria-expanded]="isMenuOpen()"
+    (click)="toggleMenu()"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>

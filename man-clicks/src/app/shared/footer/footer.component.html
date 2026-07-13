@@ -1,0 +1,9 @@
+<footer class="footer">
+  <div class="footer__brand">Man Clicks</div>
+  <div class="footer__links">
+    <a [href]="social.instagramUrl" target="_blank" rel="noopener noreferrer">{{ social.instagramHandle }}</a>
+    <a [href]="'mailto:' + social.email">{{ social.email }}</a>
+    <span>{{ social.location }}</span>
+  </div>
+  <div class="footer__copyright">&copy; {{ year }} Man Clicks. All rights reserved.</div>
+</footer>

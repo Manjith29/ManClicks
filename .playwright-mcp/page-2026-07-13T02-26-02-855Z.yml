@@ -1,0 +1,1026 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link "Man Clicks" [ref=e5] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e6]:
+      - link "Baby Shoots" [ref=e7] [cursor=pointer]:
+        - /url: /baby-shoots
+      - link "Professional Portraits" [ref=e8] [cursor=pointer]:
+        - /url: /professional-portraits
+      - link "Engagements" [ref=e9] [cursor=pointer]:
+        - /url: /engagements
+      - link "Birthdays" [ref=e10] [cursor=pointer]:
+        - /url: /birthdays
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - img "Baby Shoots featured photograph" [ref=e14]
+        - img "Baby Shoots detail photograph" [ref=e15]
+        - heading "Baby Shoots" [level=1] [ref=e16]
+        - 'link "Open Man Clicks on Instagram: @manclicksiowa" [ref=e19] [cursor=pointer]':
+          - /url: https://www.instagram.com/manclicksiowa/
+          - text: "@manclicksiowa"
+        - button "VIEW GALLERY ↓" [ref=e20] [cursor=pointer]
+      - navigation "Photo albums" [ref=e21]:
+        - button "All" [ref=e22] [cursor=pointer]
+        - button "Tonsure Ceremony" [active] [ref=e23] [cursor=pointer]
+      - generic [ref=e26]:
+        - figure [ref=e65]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e66] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e67]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-001.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e68]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e69] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e70]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-002.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e71]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e72] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e73]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-003.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e74]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e75] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e76]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-004.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e77]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e78] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e79]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-005.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e80]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e81] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e82]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-006.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e83]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e84] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e85]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-007.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e86]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e87] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e88]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-008.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e89]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e90] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e91]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-009.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e92]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e93] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e94]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-010.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e95]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e96] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e97]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-011.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e98]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e99] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e100]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-012.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e101]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e102] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e103]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-013.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e104]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e105] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e106]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-014.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e107]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e108] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e109]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-015.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e110]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e111] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e112]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-016.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e113]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e114] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e115]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-017.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e116]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e117] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e118]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-018.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e119]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e120] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e121]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-019.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e122]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e123] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e124]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-020.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e125]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e126] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e127]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-021.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e128]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e129] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e130]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-022.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e131]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e132] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e133]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-023.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e134]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e135] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e136]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-024.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e137]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e138] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e139]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-025.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e140]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e141] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e142]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-026.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e143]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e144] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e145]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-027.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e146]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e147] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e148]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-028.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e149]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e150] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e151]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-029.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e152]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e153] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e154]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-030.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e155]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e156] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e157]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-031.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e158]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e159] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e160]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-032.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e161]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e162] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e163]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-033.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e164]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e165] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e166]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-034.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e167]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e168] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e169]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-035.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e170]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e171] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e172]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-036.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e173]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e174] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e175]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-037.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e176]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e177] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e178]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-038.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e179]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e180] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e181]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-039.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e182]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e183] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e184]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-040.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e185]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e186] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e187]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-041.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e188]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e189] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e190]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-042.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e191]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e192] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e193]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-043.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e194]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e195] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e196]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-044.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e197]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e198] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e199]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-045.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e200]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e201] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e202]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-046.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e203]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e204] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e205]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-047.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e206]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e207] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e208]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-048.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e209]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e210] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e211]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-049.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e212]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e213] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e214]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-050.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e215]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e216] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e217]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-051.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e218]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e219] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e220]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-052.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e221]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e222] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e223]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-053.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e224]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e225] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e226]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-054.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e227]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e228] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e229]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-055.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e230]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e231] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e232]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-056.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e233]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e234] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e235]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-057.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e236]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e237] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e238]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-058.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e239]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e240] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e241]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-059.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e242]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e243] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e244]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-060.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e245]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e246] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e247]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-061.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e248]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e249] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e250]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-062.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e251]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e252] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e253]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-063.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e254]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e255] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e256]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-064.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e257]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e258] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e259]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-065.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e260]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e261] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e262]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-066.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e263]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e264] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e265]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-067.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e266]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e267] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e268]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-068.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e269]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e270] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e271]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-069.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e272]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e273] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e274]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-070.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e275]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e276] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e277]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-071.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e278]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e279] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e280]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-072.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e281]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e282] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e283]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-073.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e284]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e285] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e286]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-074.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e287]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e288] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e289]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-075.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e290]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e291] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e292]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-076.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e293]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e294] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e295]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-077.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e296]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e297] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e298]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-078.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e299]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e300] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e301]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-079.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e302]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e303] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e304]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-080.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e305]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e306] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e307]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-081.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e308]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e309] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e310]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-082.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e311]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e312] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e313]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-083.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e314]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e315] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e316]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-084.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e317]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e318] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e319]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-085.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e320]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e321] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e322]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-086.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e323]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e324] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e325]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-087.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e326]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e327] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e328]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-088.jpg
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e329]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e330] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e331]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-089.png
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+        - figure [ref=e332]:
+          - button "Open Tonsure ceremony photography by Man Clicks in fullscreen" [ref=e333] [cursor=pointer]:
+            - img "Tonsure ceremony photography by Man Clicks" [ref=e334]
+          - generic:
+            - generic:
+              - generic:
+                - button "Like this photo": ♥
+                - link "Download this photo":
+                  - /url: assets/images/baby/tonsure-ceremony/tonsure-090.png
+                  - text: ⇩
+                - button "Share this photo on WhatsApp": ↗
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]: Man Clicks
+    - generic [ref=e60]:
+      - link "@manclicksiowa" [ref=e61] [cursor=pointer]:
+        - /url: https://www.instagram.com/manclicksiowa/
+      - link "manclicksiowa@gmail.com" [ref=e62] [cursor=pointer]:
+        - /url: mailto:manclicksiowa@gmail.com
+      - generic [ref=e63]: Des Moines, Iowa
+    - generic [ref=e64]: © 2026 Man Clicks. All rights reserved.
