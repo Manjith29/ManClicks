@@ -1,0 +1,6 @@
+{
+  "root": "man-clicks",
+  "buildCommand": "ng build --configuration production",
+  "outputDirectory": "dist/man-clicks/browser",
+  "devCommand": "ng serve"
+}
