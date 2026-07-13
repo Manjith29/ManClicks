@@ -3,7 +3,6 @@
   position: relative;
   min-height: 80vh;
   display: grid;
-  grid-template-columns: 1fr;
   padding: var(--space-lg) 0;
   background: var(--color-espresso);
   overflow: hidden;
@@ -36,11 +35,11 @@
   position: absolute;
   bottom: var(--space-md);
   right: var(--space-md);
-  background: none;
-  border: none;
+  background: 0;
+  border: 0;
   color: var(--color-ivory);
-  letter-spacing: 0.08em;
-  font-size: 0.85rem;
+  letter-spacing: .08em;
+  font-size: .85rem;
 }
 
 @media (max-width: 640px) {
