@@ -72,13 +72,13 @@
 
 .album-tab {
   flex-shrink: 0;
-  background: none;
+  background: 0;
   border: none;
   border-bottom: 2px solid transparent;
   padding: var(--space-xs) var(--space-xs) calc(var(--space-xs) + 2px);
   color: var(--color-taupe);
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
+  font-size: .95rem;
+  letter-spacing: .03em;
   white-space: nowrap;
   transition: color var(--transition-base), border-color var(--transition-base);
 }
@@ -101,13 +101,12 @@
 
 .album-control-btn {
   padding: 6px 8px;
-  font-size: 0.9rem;
+  font-size: .9rem;
   border: 1px solid currentColor;
   background: 0;
   cursor: pointer;
   transition: all var(--transition-base);
   line-height: 1;
-  white-space: nowrap;
 }
 
 .album-control-btn:hover:not(:disabled) {
