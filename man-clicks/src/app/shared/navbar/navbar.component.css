@@ -11,6 +11,11 @@
   background: rgba(248, 243, 231, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: var(--border-hairline);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar--hidden {
+  transform: translateY(-100%);
 }
 
 .brand {
