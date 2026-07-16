@@ -37,11 +37,12 @@ export class NavbarComponent implements OnInit, OnDestroy {
   private onScroll(): void {
     const currentScrollY = window.scrollY;
     const isHomePage = this.router.url === '/';
+    const isScrollingDown = currentScrollY > this.lastScrollY;
 
     if (isHomePage) {
-      if (currentScrollY > this.lastScrollY && currentScrollY > 100) {
+      if (isScrollingDown && currentScrollY > 50) {
         this.isHidden.set(true);
-      } else if (currentScrollY < this.lastScrollY) {
+      } else if (!isScrollingDown) {
         this.isHidden.set(false);
       }
     } else {
