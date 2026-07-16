@@ -10,7 +10,7 @@
 
 .hero-main {
   width: 120%;
-  height: 60vh;
+  /* height: 60vh; */
   object-fit: contain;
   object-position: center;
   margin: 0 auto;
