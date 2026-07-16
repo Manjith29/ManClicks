@@ -1,32 +1,48 @@
 .image-actions {
   display: flex;
-  gap: var(--space-xs);
+  gap: 12px;
 }
 
-.image-actions button,
-.image-actions a {
+.action-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  background: rgba(248, 243, 231, 0.9);
-  border: var(--border-hairline);
+  width: 40px;
+  height: 40px;
+  background: rgba(248, 243, 231, 0.85);
+  border: 1.5px solid var(--color-espresso);
   border-radius: 50%;
   color: var(--color-espresso);
   text-decoration: none;
-  transition: background var(--transition-base), color var(--transition-base), transform var(--transition-base);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
 }
 
-.image-actions button:hover,
-.image-actions a:hover,
-.image-actions button:focus-visible,
-.image-actions a:focus-visible {
-  background: var(--color-gold);
-  color: var(--color-white);
-  transform: scale(1.05);
+.action-btn:hover,
+.action-btn:focus-visible {
+  background: var(--color-espresso);
+  color: var(--color-ivory);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.action-btn:active .icon {
+  transform: scale(0.95);
 }
 
 .like--active {
+  background: rgba(218, 165, 32, 0.2);
   color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.like--active:hover {
+  background: var(--color-gold);
+  color: var(--color-white);
 }

@@ -1,30 +1,33 @@
 <div class="image-actions">
   <button
     type="button"
-    class="like"
+    class="action-btn like"
     [class.like--active]="isLiked()"
     [attr.aria-pressed]="isLiked()"
     [attr.aria-label]="(isLiked() ? 'Unlike' : 'Like') + ' this photo'"
     (click)="onLikeClick()"
+    title="Like"
   >
-    &hearts;
+    <span class="icon">♥</span>
   </button>
 
   <a
-    class="download"
+    class="action-btn download"
     [href]="image.downloadSrc"
     [download]="downloadFileName"
     [attr.aria-label]="'Download this photo'"
+    title="Download"
   >
-    &#8681;
+    <span class="icon">⬇</span>
   </a>
 
   <button
     type="button"
-    class="share"
-    aria-label="Share this photo on WhatsApp"
+    class="action-btn share"
+    [attr.aria-label]="'Share this photo'"
     (click)="onShareClick()"
+    title="Share"
   >
-    &#8599;
+    <span class="icon">✓</span>
   </button>
 </div>
