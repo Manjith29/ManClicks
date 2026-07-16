@@ -9,10 +9,11 @@
 }
 
 .hero-main {
-  width: 100%;
+  width: 120%;
   height: 60vh;
   object-fit: contain;
   object-position: center;
+  margin: 0 auto;
 }
 
 .hero-secondary {
@@ -29,6 +30,7 @@
   position: absolute;
   bottom: var(--space-md);
   left: var(--space-md);
+  display: none;
 }
 
 .hero-preview__view-gallery {
