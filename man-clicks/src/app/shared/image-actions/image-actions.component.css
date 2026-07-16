@@ -46,3 +46,8 @@
   background: var(--color-gold);
   color: var(--color-white);
 }
+
+.share-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+}
