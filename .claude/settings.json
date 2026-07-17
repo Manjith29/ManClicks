@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(node -e ' *)",
-      "Bash(xargs grep -l \"createActivatedRoute\\\\|_paramMap\\\\|class ActivatedRoute\")"
+      "Bash(xargs grep -l \"createActivatedRoute\\\\|_paramMap\\\\|class ActivatedRoute\")",
+      "mcp__playwright__browser_tabs"
     ]
   }
 }
