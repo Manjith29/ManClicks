@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd man-clicks && npm install && npm run build -- --configuration production",
+  "buildCommand": "cd man-clicks && npm install --legacy-peer-deps && npm run build -- --configuration production",
   "outputDirectory": "man-clicks/dist/man-clicks",
   "devCommand": "cd man-clicks && npm start"
 }
