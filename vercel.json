@@ -1,5 +1,5 @@
 {
   "buildCommand": "cd man-clicks && npm install && npm run vercel-build",
-  "outputDirectory": "man-clicks/dist/man-clicks",
+  "outputDirectory": "./man-clicks/dist/man-clicks",
   "devCommand": "cd man-clicks && npm start"
 }
