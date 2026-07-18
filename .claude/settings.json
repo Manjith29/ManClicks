@@ -3,7 +3,12 @@
     "allow": [
       "Bash(node -e ' *)",
       "Bash(xargs grep -l \"createActivatedRoute\\\\|_paramMap\\\\|class ActivatedRoute\")",
-      "mcp__playwright__browser_tabs"
+      "mcp__playwright__browser_tabs",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_find",
+      "mcp__playwright__browser_click"
     ]
   }
 }
